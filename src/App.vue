@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { setupModules } from '@/modules';
+
+setupModules();
+</script>
 
 <template>
-  <div></div>
+  <RouterView></RouterView>
 </template>
-
-<style scoped></style>
