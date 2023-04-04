@@ -1,0 +1,35 @@
+@use 'sass:map';
+@use 'sass:list';
+
+@function radial(
+  $size: (
+    x: 0%,
+    y: 0%,
+  ),
+  $point: (
+    x: 100%,
+    y: 100%,
+  ),
+  $steps
+) {
+  $size-x: map.get($size, "x");
+  $size-y: map.get($size, "y");
+  $point-x: map.get($point, "x");
+  $point-y: map.get($point, "y");
+
+  @return radial-gradient(
+    $size-x $size-y at $point-x $point-y,
+    $steps
+  );
+}
+
+@function linear(
+  $deg: 0deg,
+  $steps
+) {
+  @return linear-gradient(
+    $deg,
+    $steps
+  );
+}
+

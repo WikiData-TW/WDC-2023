@@ -1,0 +1,155 @@
+@mixin typography {
+  * {
+    font-family: Lato, 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-rendering: geometricprecision;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  .font {
+    &-thin {
+      font-weight: 300;
+    }
+
+    &-normal {
+      font-weight: 400;
+    }
+
+    &-medium {
+      font-weight: 500;
+    }
+
+    &-semibold {
+      font-weight: 600;
+    }
+
+    &-bold {
+      font-weight: 700;
+    }
+
+    &-black {
+      font-weight: 900;
+    }
+
+    &-uppercase {
+      text-transform: uppercase;
+
+      &.only-first {
+        text-transform: none;
+
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    &-wrap {
+      white-space: pre;
+
+      &.force-break {
+        white-space: pre-wrap;
+
+        @supports (white-space: break-spaces) {
+          white-space: break-spaces;
+        }
+      }
+    }
+
+    &-fira {
+      font-family: "Fira Code", monospace;
+    }
+
+    &-orbitron {
+      font-family: Orbitron, monospace;
+    }
+
+    &-size {
+      &--xxs {
+        font-size: 0.625em;
+      }
+
+      &--xs {
+        font-size: 0.75em;
+      }
+
+      &--s {
+        font-size: 0.875em;
+      }
+
+      &--sm {
+        font-size: 1em;
+      }
+
+      &--m {
+        font-size: 1.25em;
+      }
+
+      &--xm {
+        font-size: 1.5em;
+      }
+
+      &--ml {
+        font-size: 2em;
+      }
+
+      &--l {
+        font-size: 2.25em;
+      }
+
+      &--xl {
+        font-size: 2.5em;
+      }
+
+      &--xxl {
+        font-size: 3.125em;
+      }
+
+      &--xxxl {
+        font-size: 4em;
+      }
+    }
+
+    &-align {
+      &--left {
+        text-align: left;
+      }
+
+      &--center {
+        text-align: center;
+      }
+
+      &--right {
+        text-align: right;
+      }
+    }
+
+    &-warp {
+      white-space: pre-wrap;
+    }
+
+    &-effect {
+      &--inner-shadow--small {
+        filter: url("#text-effect--inner-shadow--small");
+      }
+
+      &--inner-shadow--large {
+        filter: url("#text-effect--inner-shadow--large");
+      }
+    }
+  }
+
+  p {
+    &.paragraph,
+    &.description {
+      line-height: 1.4;
+    }
+  }
+}
