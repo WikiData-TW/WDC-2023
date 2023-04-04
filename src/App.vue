@@ -7,3 +7,7 @@ setupModules();
 <template>
   <RouterView></RouterView>
 </template>
+
+<style lang="scss">
+@import '@/assets/styles/scss/main';
+</style>
