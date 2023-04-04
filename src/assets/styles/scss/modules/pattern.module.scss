@@ -1,0 +1,14 @@
+@use '@/assets/styles/scss/modules/palette.module' as palette;
+
+.pattern {
+  &-path {
+    fill: transparent;
+    stroke: palette.$white;
+    stroke-width: 1px;
+  }
+
+  &-sketch {
+    opacity: 0.25;
+    transform: scale(150%);
+  }
+}
