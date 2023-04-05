@@ -9,15 +9,12 @@ const { width, height } = useElementSize(wrapperRef$);
 <template>
   <div ref="wrapperRef$" :class="$style['banner-container']">
     <PatternMaterial :height="height" :width="width" />
+    <div :class="$style['banner-wrapper']">
+      <MainLogo />
+    </div>
   </div>
 </template>
 
 <style module lang="scss" scoped>
-.banner {
-  &-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-}
+@use '@/assets/styles/scss/modules/banner.module' as banner;
 </style>
