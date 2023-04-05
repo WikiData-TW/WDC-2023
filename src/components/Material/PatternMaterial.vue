@@ -125,7 +125,7 @@ onMounted(() => {
           xlink:href="#gradient-stop-2"
           attributeName="stop-color"
           attributeType="XML"
-          values="#ffffff;#fbcf76;#83bde7;#d2e49e;#ffffff"
+          values="#eeeeee;#fbcf76;#83bde7;#d2e49e;#eeeeee"
           begin="-2.5s"
           dur="15s"
           repeatCount="indefinite"
@@ -150,7 +150,7 @@ onMounted(() => {
               : {}
           "
           transformOrigin="center"
-          transform="scale(3)"
+          :transform="`scale(${props.scale})`"
         />
         <animate
           xlink:href="#pattern-path"

@@ -1,6 +1,6 @@
 # 2023 維基數據雙年會 {.seo-only}
 
-## 鏈結資料再發現：WIKIDATA 的跨領域匯流 {.font-size--ml}
+## 鏈結資料再發現 : WIKIDATA 的跨領域匯流 {.font-size--ml}
 
 ---
 
@@ -8,4 +8,4 @@
 
 臺北大學（三峽校區）& Gather Town 線上開放議程 {.font-size--sm .box-modifier--extrude-outside--reset}
 
-[聯絡我們](mailto:contact@wikidatacon.org){.button} [WIKIDATA 頁面](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button target="_blank" rel="noopener"} {.box-modifier--extrude-outside--top--8}
+[聯絡我們](mailto:contact@wikidatacon.org){.button .box-modifier--extrude-outside--top--4} [WIKIDATA 頁面](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button .box-modifier--extrude-outside--top--4 target="_blank" rel="noopener"} {.box-modifier--extrude-outside--top--8}

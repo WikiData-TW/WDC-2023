@@ -10,6 +10,10 @@
           $size: $index * 0.25;
 
           #{$kind}-#{$direction}: #{$size}em !important;
+
+          @media screen and (width < 600px) {
+            #{$kind}-#{$direction}: #{$size * 0.75}em !important;
+          }
         }
       }
 
