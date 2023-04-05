@@ -32,15 +32,11 @@
     align-items: center;
 
     @media screen and (width < 900px) {
-      padding: calc(var(--pattern-size) * var(--pattern-scale) * 0.5);
-    }
-
-    @media screen and (width < 600px) {
-      padding: calc(var(--pattern-size) * var(--pattern-scale) * 0.25);
+      padding: calc(var(--pattern-size) * var(--pattern-scale) * 0.125);
       height: 100%;
     }
 
-    @media screen and (width < 600px) and (height < 768px) {
+    @media screen and (width <= 768px) {
       padding: calc(var(--pattern-size) * var(--pattern-scale) * 0.125);
     }
   }
@@ -56,9 +52,6 @@
 
     @media screen and (width < 900px) {
       max-height: calc(100% - 320px);
-    }
-
-    @media screen and (width < 600px) {
       padding: 1em;
     }
   }
@@ -76,7 +69,7 @@
     --text-color: #{palette.$white};
     --accent-color: #{palette.$black};
 
-    @media screen and (width < 600px) {
+    @media screen and (width < 900px) {
       flex: 0 1 auto;
     }
   }

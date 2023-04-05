@@ -26,7 +26,7 @@
     }
 
     &-semibold {
-      font-weight: 600;
+      font-weight: 768;
     }
 
     &-bold {
@@ -73,7 +73,7 @@
       &--xxs {
         font-size: 0.625em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 0.75em;
         }
       }
@@ -81,7 +81,7 @@
       &--xs {
         font-size: 0.75em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 0.875em;
         }
       }
@@ -89,7 +89,7 @@
       &--s {
         font-size: 0.875em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 0.9em;
         }
       }
@@ -97,7 +97,7 @@
       &--sm {
         font-size: 1em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 0.925em;
         }        
       }
@@ -105,7 +105,7 @@
       &--m {
         font-size: 1.25em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 1.125em;
         }
       }
@@ -113,7 +113,7 @@
       &--xm {
         font-size: 1.5em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 1.375em;
         }
       }
@@ -121,7 +121,7 @@
       &--ml {
         font-size: 2em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 1.875em;
         }
       }
@@ -129,7 +129,7 @@
       &--l {
         font-size: 2.25em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 2em;
         }
       }
@@ -137,7 +137,7 @@
       &--xl {
         font-size: 2.5em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 2.25em;
         }
       }
@@ -145,7 +145,11 @@
       &--xxl {
         font-size: 3.125em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 900px) {
+          font-size: 2.65em;
+        }
+
+        @media screen and (width < 768px) {
           font-size: 2.5em;
         }
       }
@@ -153,7 +157,7 @@
       &--xxxl {
         font-size: 4em;
 
-        @media screen and (width < 600px) {
+        @media screen and (width < 768px) {
           font-size: 3.125em;
         }
       }
