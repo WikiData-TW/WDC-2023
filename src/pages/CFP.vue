@@ -21,5 +21,3 @@ const isMobile = breakpoints.smaller('tablet');
     />
   </div>
 </template>
-
-<style scoped></style>
