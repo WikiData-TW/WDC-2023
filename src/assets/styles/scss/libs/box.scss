@@ -11,6 +11,10 @@
 
           #{$kind}-#{$direction}: #{$size}em !important;
 
+          @media screen and (width < 900px) {
+            #{$kind}-#{$direction}: #{$size * 0.875}em !important;
+          }
+
           @media screen and (width < 600px) {
             #{$kind}-#{$direction}: #{$size * 0.75}em !important;
           }

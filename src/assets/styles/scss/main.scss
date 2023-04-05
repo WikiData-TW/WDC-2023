@@ -1,4 +1,5 @@
 @use 'modules/theme.module.scss' as theme;
+@use 'modules/acceleration.module.scss' as acceleration;
 @import 'variables';
 @import 'libs/normalize';
 @import 'libs/typography';
@@ -18,4 +19,9 @@ body {
 #app {
   position: relative;
   height: 100vh;
+
+  &,
+  & * {
+    @include acceleration.use;
+  }
 }
