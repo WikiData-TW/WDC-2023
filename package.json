@@ -9,8 +9,9 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "lint": "pnpm run lint:eslint && pnpm run lint:stylelint",
+    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint:stylelint": "stylelint 'src/**/*.{css,scss,sass,vue}' --fix"
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
