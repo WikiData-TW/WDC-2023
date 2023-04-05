@@ -1,4 +1,4 @@
-@mixin bounding-box-modify ($kind: margin) {
+@mixin bounding-box-modify($kind: margin) {
   $directions: top left bottom right;
 
   display: inline-flex;
