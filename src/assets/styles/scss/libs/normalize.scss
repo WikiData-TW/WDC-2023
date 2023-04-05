@@ -140,6 +140,7 @@
      * Add the correct display in IE 9-.
      */
 
+    div,
     article,
     aside,
     footer,
@@ -147,6 +148,7 @@
     nav,
     section {
       display: block;
+      box-sizing: border-box;
     }
 
     /**
