@@ -3,10 +3,20 @@ import { onMounted } from 'vue';
 
 import { computed, signal } from '@/shared/libs/signal';
 
-const props = defineProps<{
-  width: number;
-  height: number;
-}>();
+const props = withDefaults(
+  defineProps<{
+    width: number;
+    height: number;
+    scale?: number;
+    col?: number;
+    row?: number;
+  }>(),
+  {
+    scale: 3,
+    col: 3,
+    row: 2
+  }
+);
 
 const isFirefox = computed(() => /firefox/i.test(navigator.userAgent));
 const isSafari = computed(() =>
@@ -23,6 +33,7 @@ const patternPaths = signal([
 ]);
 
 const currentPath = signal(patternPaths()[0]);
+const patternSize = 100;
 
 onMounted(() => {
   setInterval(() => {
@@ -40,8 +51,16 @@ onMounted(() => {
     :width="props.width"
     :height="props.height"
     :viewBox="`
-      ${Math.ceil(props.width / 300) * 150 - props.width / 2}
-      ${Math.ceil(props.height / 300) * 150 - props.height / 2}
+      ${
+        Math.ceil(props.width / (patternSize * props.scale)) *
+          ((patternSize * props.scale) / 2) -
+        props.width / 2
+      }
+      ${
+        Math.ceil(props.height / (patternSize * props.scale)) *
+          ((patternSize * props.scale) / 2) -
+        props.height / 2
+      }
       ${props.width}
       ${props.height}`"
     preserveAspectRatio="xMinYMin"
@@ -51,15 +70,29 @@ onMounted(() => {
     <defs>
       <rect
         id="pattern-mask-rect"
-        :x="((Math.ceil(props.width / 300) - 3) / 2) * 300"
-        :y="((Math.ceil(props.height / 300) - 2) / 2) * 300"
-        :width="3 * 300"
-        :height="2 * 300"
+        :x="
+          ((Math.ceil(props.width / (patternSize * props.scale)) - props.col) /
+            2) *
+          (patternSize * props.scale)
+        "
+        :y="
+          ((Math.ceil(props.height / (patternSize * props.scale)) - props.row) /
+            2) *
+          (patternSize * props.scale)
+        "
+        :width="props.col * (patternSize * props.scale)"
+        :height="props.row * (patternSize * props.scale)"
       />
       <mask id="pattern-mask">
         <rect
-          :width="Math.ceil(props.width / 300) * 300"
-          :height="Math.ceil(props.height / 300) * 300"
+          :width="
+            Math.ceil(props.width / (patternSize * props.scale)) *
+            (patternSize * props.scale)
+          "
+          :height="
+            Math.ceil(props.height / (patternSize * props.scale)) *
+            (patternSize * props.scale)
+          "
           fill="#fff"
         />
         <use
@@ -102,8 +135,8 @@ onMounted(() => {
         id="pattern"
         x="0"
         y="0"
-        width="300"
-        height="300"
+        :width="patternSize * props.scale"
+        :height="patternSize * props.scale"
         patternUnits="userSpaceOnUse"
       >
         <path
@@ -170,14 +203,26 @@ onMounted(() => {
 
     <rect
       :class="$style['pattern-bg']"
-      :width="Math.ceil(props.width / 300) * 300"
-      :height="Math.ceil(props.height / 300) * 300"
+      :width="
+        Math.ceil(props.width / (patternSize * props.scale)) *
+        (patternSize * props.scale)
+      "
+      :height="
+        Math.ceil(props.height / (patternSize * props.scale)) *
+        (patternSize * props.scale)
+      "
       fill="url(#gradient)"
     />
     <rect
       :class="$style['pattern-sketch']"
-      :width="Math.ceil(props.width / 300) * 300"
-      :height="Math.ceil(props.height / 300) * 300"
+      :width="
+        Math.ceil(props.width / (patternSize * props.scale)) *
+        (patternSize * props.scale)
+      "
+      :height="
+        Math.ceil(props.height / (patternSize * props.scale)) *
+        (patternSize * props.scale)
+      "
       fill="url(#pattern)"
       mask="url(#pattern-mask)"
     />
@@ -191,7 +236,12 @@ onMounted(() => {
       attributeName="stroke-dasharray"
       attributeType="XML"
       begin="-2.5s"
-      values="0 300; 300 0; 300 0; 300 0; 0 300"
+      :values="`
+        0 ${patternSize * props.scale};
+        ${patternSize * props.scale} 0;
+        ${patternSize * props.scale} 0;
+        ${patternSize * props.scale} 0;
+        0 ${patternSize * props.scale}`"
       dur="5s"
       repeatCount="indefinite"
       calcMode="spline"
@@ -204,7 +254,12 @@ onMounted(() => {
       attributeName="stroke-dashoffset"
       attributeType="XML"
       begin="-2.5s"
-      values="0; 150; 150; 150; 0"
+      :values="`
+        0;
+        ${(patternSize * props.scale) / 2};
+        ${(patternSize * props.scale) / 2};
+        ${(patternSize * props.scale) / 2};
+        0`"
       dur="5s"
       repeatCount="indefinite"
       calcMode="spline"
