@@ -20,6 +20,7 @@
         attributeName="stop-color"
         attributeType="XML"
         values="#D1D1D1;#E8C8AA;#C5D3EC;#D1E6BA;#D1D1D1"
+        begin="-2.5s"
         dur="15s"
         repeatCount="indefinite"
       />

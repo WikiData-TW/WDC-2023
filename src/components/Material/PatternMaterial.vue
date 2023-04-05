@@ -55,6 +55,7 @@ const props = defineProps<{
           attributeName="stop-color"
           attributeType="XML"
           values="#303030;#911e23;#353889;#347437;#303030"
+          begin="-2.5s"
           dur="15s"
           repeatCount="indefinite"
         />
@@ -63,6 +64,7 @@ const props = defineProps<{
           attributeName="stop-color"
           attributeType="XML"
           values="#ffffff;#fbcf76;#83bde7;#d2e49e;#ffffff"
+          begin="-2.5s"
           dur="15s"
           repeatCount="indefinite"
         />
