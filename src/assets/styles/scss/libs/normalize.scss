@@ -1,6 +1,6 @@
-@use 'sass:meta';
-@use 'sass:math';
-@use 'sass:list';
+@use "sass:meta";
+@use "sass:math";
+@use "sass:list";
 
 /**
   * Forked from Normalize v7.0.1 by John Albin Wilkins (@JohnAlbin), Remastered by Aries Cs (@Aries0d0f)
@@ -75,14 +75,25 @@
 
   /* stylelint-disable scss/operator-no-unspaced */
   // If we've customized any font variables, we'll need extra properties.
-  @if
-    $base-line-height != 24px or
-    $base-unit        != "em" or
-    $h2-font-size     != 1.5  * $base-font-size or
-    $h3-font-size     != 1.17 * $base-font-size or
-    $h4-font-size     != 1    * $base-font-size or
-    $h5-font-size     != 0.83 * $base-font-size or
-    $h6-font-size     != 0.67 * $base-font-size
+  @if $base-line-height !=
+    24px or
+    $base-unit !=
+    "em" or
+    $h2-font-size !=
+    1.5 *
+    $base-font-size or
+    $h3-font-size !=
+    1.17 *
+    $base-font-size or
+    $h4-font-size !=
+    1 *
+    $base-font-size or
+    $h5-font-size !=
+    0.83 *
+    $base-font-size or
+    $h6-font-size !=
+    0.67 *
+    $base-font-size
   {
     $vertical-rhythm: true !global;
   }
@@ -118,7 +129,7 @@
         line-height: 1.15; /* 1 */
       }
 
-/* 2 */
+      /* 2 */
 
       text-size-adjust: 100%; /* 2 */
     }
@@ -140,6 +151,7 @@
      * Add the correct display in IE 9-.
      */
 
+    div,
     article,
     aside,
     footer,
@@ -147,6 +159,7 @@
     nav,
     section {
       display: block;
+      box-sizing: border-box;
     }
 
     /**
@@ -754,62 +767,63 @@
   * library. @see https://github.com/jptaranto/typey
   */
 
-  @function rhythm($value, $relative-to: $base-font-size, $unit: $base-unit) {
-    @if unit($value) != px {
-      @error "The normalize vertical-rhythm module only supports px inputs. The typey library is better.";
-    }
-
-    @if $unit == rem {
-      @return ($value / $base-font-size) * 1rem;
-    } @else if $unit == em {
-      @return math.div($value, $relative-to) * 1em;
-    } @else { // $unit == px
-      @return $value;
-    }
+@function rhythm($value, $relative-to: $base-font-size, $unit: $base-unit) {
+  @if unit($value) != px {
+    @error "The normalize vertical-rhythm module only supports px inputs. The typey library is better.";
   }
 
-  @mixin font-size($value, $relative-to: $base-font-size) {
-    @if unit($value) != 'px' {
-      @error "font-size() only supports px inputs. The typey library is better.";
-    }
+  @if $unit == rem {
+    @return ($value / $base-font-size) * 1rem;
+  } @else if $unit == em {
+    @return math.div($value, $relative-to) * 1em;
+  } @else {
+    // $unit == px
+    @return $value;
+  }
+}
 
-    font-size: rhythm($value, $relative-to);
+@mixin font-size($value, $relative-to: $base-font-size) {
+  @if unit($value) != "px" {
+    @error "font-size() only supports px inputs. The typey library is better.";
   }
 
-  @mixin rhythm($property, $values, $relative-to: $base-font-size) {
-    $value-list: $values;
-    $sep: space;
+  font-size: rhythm($value, $relative-to);
+}
 
-    @if type-of($values) == 'list' {
-      $sep: list.separator($values);
-    } @else {
-      $value-list: list.append((), $values);
-    }
+@mixin rhythm($property, $values, $relative-to: $base-font-size) {
+  $value-list: $values;
+  $sep: space;
 
-    $normalized-values: ();
-
-    @each $value in $value-list {
-      @if unitless($value) and $value != 0 {
-        $value: $value * rhythm($base-line-height, $relative-to);
-      }
-
-      $normalized-values: list.append($normalized-values, $value, $sep);
-    }
-
-    #{$property}: $normalized-values;
+  @if type-of($values) == "list" {
+    $sep: list.separator($values);
+  } @else {
+    $value-list: list.append((), $values);
   }
 
-  @mixin margin($values, $relative-to: $base-font-size) {
-    @include rhythm(margin, $values, $relative-to);
-  }
+  $normalized-values: ();
 
-  @mixin line-height($font-size, $min-line-padding: 2px) {
-    $lines: math.ceil($font-size / $base-line-height);
-
-    // If lines are cramped include some extra leading.
-    @if ($lines * $base-line-height - $font-size) < $min-line-padding * 2 {
-      $lines: $lines + 1;
+  @each $value in $value-list {
+    @if unitless($value) and $value != 0 {
+      $value: $value * rhythm($base-line-height, $relative-to);
     }
 
-    @include rhythm(line-height, $lines, $font-size);
+    $normalized-values: list.append($normalized-values, $value, $sep);
   }
+
+  #{$property}: $normalized-values;
+}
+
+@mixin margin($values, $relative-to: $base-font-size) {
+  @include rhythm(margin, $values, $relative-to);
+}
+
+@mixin line-height($font-size, $min-line-padding: 2px) {
+  $lines: math.ceil($font-size / $base-line-height);
+
+  // If lines are cramped include some extra leading.
+  @if ($lines * $base-line-height - $font-size) < $min-line-padding * 2 {
+    $lines: $lines + 1;
+  }
+
+  @include rhythm(line-height, $lines, $font-size);
+}
