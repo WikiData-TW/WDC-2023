@@ -9,6 +9,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (height < calc(var(--pattern-size) * var(--pattern-scale) * var(--pattern-row))) {
+      height: 100%;
+      justify-content: flex-start;
+    }
   }
 
   &-wrapper {
@@ -32,6 +37,7 @@
 
     @media screen and (width < 600px) {
       padding: calc(var(--pattern-size) * var(--pattern-scale) * 0.25);
+      height: 100%;
     }
 
     @media screen and (width < 600px) and (height < 768px) {
@@ -43,27 +49,17 @@
     position: relative;
     width: 100%;
     height: auto;
-    display: flex;
-    flex: 2 1 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    > svg {
+      overflow: hidden;
+    }
 
     @media screen and (width < 900px) {
-      width: 100%;
       max-height: calc(100% - 320px);
     }
 
     @media screen and (width < 600px) {
-      width: 100%;
-      max-height: 320px;
-      flex: auto 1 auto;
-      margin-top: 1em;
-    }
-
-    @media screen  and (width < 600px) and (height < 768px) {
-      width: 100%;
-      max-height: 240px;
+      padding: 1em;
     }
   }
 
@@ -81,7 +77,7 @@
     --accent-color: #{palette.$black};
 
     @media screen and (width < 600px) {
-      flex: 2 1 auto;
+      flex: 0 1 auto;
     }
   }
 }
