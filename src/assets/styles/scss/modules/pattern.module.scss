@@ -13,9 +13,20 @@
     fill: transparent;
     stroke: palette.$white;
     stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   &-sketch {
+    opacity: 0.25;
+  }
+
+  &-mask-rect {
+    fill: transparent;
+    stroke: palette.$white;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
     opacity: 0.25;
   }
 }

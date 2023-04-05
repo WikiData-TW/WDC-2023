@@ -10,11 +10,36 @@ const props = defineProps<{
     :class="$style['pattern-container']"
     :width="props.width"
     :height="props.height"
+    :viewBox="`
+      ${Math.ceil(props.width / 300) * 150 - props.width / 2}
+      ${Math.ceil(props.height / 300) * 150 - props.height / 2}
+      ${props.width}
+      ${props.height}`"
     preserveAspectRatio="xMinYMin"
     color-profile="sRGB"
     xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
+      <rect
+        id="pattern-mask-rect"
+        :x="((Math.ceil(props.width / 300) - 3) / 2) * 300"
+        :y="((Math.ceil(props.height / 300) - 2) / 2) * 300"
+        :width="3 * 300"
+        :height="2 * 300"
+      />
+      <mask id="pattern-mask">
+        <rect
+          :width="Math.ceil(props.width / 300) * 300"
+          :height="Math.ceil(props.height / 300) * 300"
+          fill="#fff"
+        />
+        <use
+          xlink:href="#pattern-mask-rect"
+          fill="#000"
+          stroke="#000"
+          stroke-width="4"
+        />
+      </mask>
       <linearGradient
         id="gradient"
         :x1="props.width / 2"
@@ -46,16 +71,20 @@ const props = defineProps<{
         id="pattern"
         x="0"
         y="0"
-        width="100"
-        height="100"
+        width="300"
+        height="300"
         patternUnits="userSpaceOnUse"
       >
-        <path id="pattern-path" :class="$style['pattern-path']" />
+        <path
+          id="pattern-path"
+          :class="$style['pattern-path']"
+          transformOrigin="center"
+          transform="scale(3)"
+        />
         <animate
           xlink:href="#pattern-path"
           attributeName="stroke-dashoffset"
           attributeType="XML"
-          id="draw"
           begin="-2.5s"
           values="-200; 0; 0; 0; -200; -125; 0; 0; 0; -125; -125; 0; 0; 0; -125"
           dur="15s"
@@ -97,17 +126,47 @@ const props = defineProps<{
 
     <rect
       :class="$style['pattern-bg']"
-      :width="props.width"
-      :height="props.height"
+      :width="Math.ceil(props.width / 300) * 300"
+      :height="Math.ceil(props.height / 300) * 300"
       fill="url(#gradient)"
     />
     <rect
       :class="$style['pattern-sketch']"
-      :width="props.width"
-      :height="props.height"
+      :width="Math.ceil(props.width / 300) * 300"
+      :height="Math.ceil(props.height / 300) * 300"
       fill="url(#pattern)"
-      transformOrigin="center"
-      transform="scale(3)"
+      mask="url(#pattern-mask)"
+    />
+    <use
+      id="pattern-mask-rect-path"
+      xlink:href="#pattern-mask-rect"
+      :class="[$style['pattern-mask-rect']]"
+    />
+    <animate
+      xlink:href="#pattern-mask-rect-path"
+      attributeName="stroke-dasharray"
+      attributeType="XML"
+      begin="-2.5s"
+      values="0 300; 300 0; 300 0; 300 0; 0 300"
+      dur="5s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0; 0.25; 0.5; 0.75; 1"
+      keySplines="0 0.5 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0 0.5 0.5 1"
+      fill="freeze"
+    />
+    <animate
+      xlink:href="#pattern-mask-rect-path"
+      attributeName="stroke-dashoffset"
+      attributeType="XML"
+      begin="-2.5s"
+      values="0; 150; 150; 150; 0"
+      dur="5s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0; 0.25; 0.5; 0.75; 1"
+      keySplines="0 0.5 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0 0.5 0.5 1"
+      fill="freeze"
     />
   </svg>
 </template>
