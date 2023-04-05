@@ -7,6 +7,7 @@ const props = defineProps<{
 
 <template>
   <svg
+    :class="$style['pattern-container']"
     :width="props.width"
     :height="props.height"
     preserveAspectRatio="xMinYMin"
