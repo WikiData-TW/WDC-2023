@@ -14,4 +14,34 @@
     border: 1px solid var(--text-color);
     opacity: 0.25;
   }
+
+  p {
+    margin: 1em 0;
+    line-height: 1.6;
+
+    + hr {
+      margin-top: 2em;
+    }
+  }
+
+  h1,
+  h2 {
+    &.deco {
+      &:before {
+        content: '[[ ';
+      }
+  
+      &:after {
+        content: ' ]]';
+      }
+  
+      &::before,
+      &::after {
+        color: var(--text-color);
+        opacity: 0.25;
+        font-weight: 400;
+        font-size: 85%;
+      }
+    }
+  }
 }
