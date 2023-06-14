@@ -9,13 +9,11 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    copy: typeof import('./src/components/Texture/PatternTwo copy.vue')['default']
     MainBanner: typeof import('./src/components/Layout/MainBanner.vue')['default']
+    MainFooter: typeof import('./src/components/Layout/MainFooter.vue')['default']
     MainLogo: typeof import('./src/components/Material/MainLogo.vue')['default']
+    MainNavbar: typeof import('./src/components/Layout/MainNavbar.vue')['default']
     PatternMaterial: typeof import('./src/components/Material/PatternMaterial.vue')['default']
-    PatternOne: typeof import('./src/components/Texture/PatternOne.vue')['default']
-    PatternThree: typeof import('./src/components/Texture/PatternThree.vue')['default']
-    PatternTwo: typeof import('./src/components/Texture/PatternTwo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

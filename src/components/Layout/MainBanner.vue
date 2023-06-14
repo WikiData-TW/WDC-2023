@@ -25,10 +25,10 @@ const langs = usePreferredLanguages();
 
 const i18n = {
   'zh-TW': defineAsyncComponent(
-    () => import('@/../locale/zh-TW/CFP-banner.component.md')
+    () => import('@/../locale/zh-TW/homepage-banner.component.md')
   ),
   en: defineAsyncComponent(
-    () => import('@/../locale/en/CFP-banner.component.md')
+    () => import('@/../locale/en/homepage-banner.component.md')
   )
 };
 
