@@ -1,5 +1,8 @@
+@use '@/assets/styles/scss/modules/palette.module.scss' as palette;
+
 .article {
   color: var(--text-color);
+  line-height: 1.6;
   
   :first-child {
     margin-top: 0;
@@ -27,21 +30,41 @@
   h1,
   h2 {
     &.deco {
+
+      display: flex;
+      align-items: center;
+
       &:before {
-        content: '[[ ';
-      }
-  
-      &:after {
-        content: ' ]]';
+        content: url("/flower_red.png");
       }
   
       &::before,
       &::after {
         color: var(--text-color);
         opacity: 0.25;
-        font-weight: 400;
-        font-size: 85%;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
       }
     }
+  }
+
+  .button:hover {
+    color: white;
+  }
+
+  ul {
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  code {
+    font-family: monospace, "Noto Sans TC";
+    font-size: smaller;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    background-color: #{palette.$gray-3};
   }
 }

@@ -16,9 +16,9 @@ const langs = usePreferredLanguages();
 
 const i18n = {
   'zh-TW': defineAsyncComponent(
-    () => import('@/../locale/zh-TW/CFP.component.md')
+    () => import('@/../locale/zh-TW/homepage.component.md')
   ),
-  en: defineAsyncComponent(() => import('@/../locale/en/CFP.component.md'))
+  en: defineAsyncComponent(() => import('@/../locale/en/homepage.component.md'))
 };
 
 const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
@@ -26,6 +26,12 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
 <template>
   <div>
+    <MainBanner
+      :col="isMobile ? (breakpoints.smallerOrEqual('mobile') ? 3 : 6) : 3"
+      :row="isMobile ? 9 : 2"
+      :scale="isMobile ? (breakpoints.smallerOrEqual('mobile') ? 1 : 1) : 3"
+      :isMobile="isMobile"
+    />
     <MainNavbar/>
     <main class="main-viewport">
       <Suspense>
@@ -52,6 +58,10 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
   .article {
     max-width: 768px;
+
+    .wikidata-img {
+      width: auto;
+    }
   }
 }
 </style>
