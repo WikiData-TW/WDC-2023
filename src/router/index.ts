@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: '/2023',
-      component: () => import('../pages/homepage.vue')
+      component: () => import('../pages/MainPage.vue')
     },
     {
       path: '/',

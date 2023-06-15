@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { defineAsyncComponent, ref } from 'vue';
-import { useElementSize, usePreferredLanguages } from '@vueuse/core';
+import { defineAsyncComponent } from 'vue';
+import { usePreferredLanguages } from '@vueuse/core';
 import { get, first } from 'lodash-es';
 
 import { signal } from '@/shared/libs/signal';
