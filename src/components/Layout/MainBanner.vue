@@ -66,3 +66,11 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
   }
 }
 </style>
+
+<style lang="scss">
+.btn-banner {
+  &:hover {
+    color: black;
+  }
+}
+</style>
