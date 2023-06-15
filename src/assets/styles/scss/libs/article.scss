@@ -35,13 +35,14 @@
       align-items: center;
 
       &:before {
-        content: url("/flower_red.png");
+        content: "";
+        background-image: url("/flower_red.png");
+        background-size: contain;
       }
   
       &::before,
       &::after {
         color: var(--text-color);
-        opacity: 0.25;
         display: flex;
         width: 50px;
         height: 50px;
@@ -51,7 +52,7 @@
   }
 
   .button:hover {
-    color: white;
+    --accent-color: white;
   }
 
   ul {

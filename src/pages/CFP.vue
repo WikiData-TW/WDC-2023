@@ -26,7 +26,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
 <template>
   <div>
-    <MainNavbar/>
+    <MainNavbar />
     <main class="main-viewport">
       <Suspense>
         <component :is="content()" />

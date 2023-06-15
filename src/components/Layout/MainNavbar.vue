@@ -5,38 +5,32 @@ import { get, first } from 'lodash-es';
 
 import { signal } from '@/shared/libs/signal';
 
-
 const langs = usePreferredLanguages();
 
 const i18n = {
   'zh-TW': defineAsyncComponent(
     () => import('@/../locale/zh-TW/navbar.component.md')
   ),
-  en: defineAsyncComponent(
-    () => import('@/../locale/en/navbar.component.md')
-  )
+  en: defineAsyncComponent(() => import('@/../locale/en/navbar.component.md'))
 };
 
 const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 </script>
 
 <template>
-  <div>
-    <nav class="navbar">
-      <a href="/" class="logo">
-        <img class="logo" src="/LOGO_w_RGB.svg" alt="logo">
-      </a>
-      <Suspense>
-        <component :is="content()" />
-      </Suspense>
-    </nav>
-  </div>
+  <nav class="navbar">
+    <a href="/" class="logo">
+      <img class="logo" src="/LOGO_w_RGB.svg" alt="logo" />
+    </a>
+    <Suspense>
+      <component :is="content()" />
+    </Suspense>
+  </nav>
 </template>
 
 <style lang="scss" scoped>
-
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   height: 65px;
   width: 100%;
@@ -59,21 +53,24 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
       padding: 0.2rem 0;
     }
   }
-}
 
+  :deep(.article) {
+    width: 40%;
+  }
+}
 </style>
 
 <style lang="scss">
-
 @keyframes anim {
-  0%{transform: rotate(0deg);}
-  100%{transform: rotate(270deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
 }
 
 .article {
-
-  width: 40%;
-
   .navbar-list {
     margin: 0;
     padding: 0;
@@ -95,9 +92,11 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
         &:hover {
           &::before {
-            content: url("/flower_red.png");
+            content: '';
+            background-image: url('/flower_red.png');
+            background-size: contain;
             display: flex;
-            padding: 0 5px;
+            margin: 0 5px;
             width: 25px;
             height: 25px;
             animation: anim 1s linear infinite alternate;
@@ -107,5 +106,4 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
     }
   }
 }
-
 </style>

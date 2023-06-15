@@ -32,7 +32,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
       :scale="isMobile ? (breakpoints.smallerOrEqual('mobile') ? 1 : 1) : 3"
       :isMobile="isMobile"
     />
-    <MainNavbar/>
+    <MainNavbar />
     <main class="main-viewport">
       <Suspense>
         <component :is="content()" />
