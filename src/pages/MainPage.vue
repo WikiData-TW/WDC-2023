@@ -38,6 +38,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
         <component :is="content()" />
       </Suspense>
     </main>
+    <MainFooter />
   </div>
 </template>
 
