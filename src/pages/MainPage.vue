@@ -72,13 +72,13 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
       &.content {
         display: flex;
         align-items: center;
-  
+
         .wikidata-img {
           width: 100%;
           height: 100%;
           margin-right: 20px;
         }
-  
+
         .wdc-img {
           width: 100%;
           height: 100%;

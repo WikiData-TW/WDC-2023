@@ -25,13 +25,24 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
         <img class="logo" src="/LOGO_w_RGB.svg" alt="logo" />
       </a>
       <div class="icons">
-        <a href="https://www.facebook.com/WikidataTW"><Icon icon="fa-brands:facebook" /></a>
-        <a href="https://github.com/WikiData-TW/WDC-2023"><Icon icon="fa-brands:github" /></a>
-        <a href="https://liker.social/@wikidatatw"><Icon icon="fa-brands:mastodon" /></a>
-        <a href="mailto:contact@wikidatacon.org"><Icon icon="fluent:mail-24-filled" /></a>
+        <a href="https://www.facebook.com/WikidataTW"
+          ><Icon icon="fa-brands:facebook"
+        /></a>
+        <a href="https://github.com/WikiData-TW/WDC-2023"
+          ><Icon icon="fa-brands:github"
+        /></a>
+        <a href="https://liker.social/@wikidatatw"
+          ><Icon icon="fa-brands:mastodon"
+        /></a>
+        <a href="mailto:contact@wikidatacon.org"
+          ><Icon icon="fluent:mail-24-filled"
+        /></a>
       </div>
       <div class="coc">
-        <a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/Wikidata_Taiwan/Code_of_Conduct_Wikidata_Taiwan">Taiwan Call of Conduct</a>
+        <a
+          href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/Wikidata_Taiwan/Code_of_Conduct_Wikidata_Taiwan"
+          >Taiwan Call of Conduct</a
+        >
       </div>
     </div>
     <div class="right">
@@ -45,20 +56,20 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 <style lang="scss" scoped>
 @keyframes anim-color {
   0% {
-    color: #8A1E22;
+    color: #8a1e22;
   }
   50% {
-    color: #358E62;
+    color: #358e62;
   }
   100% {
-    color: #155E8B;
+    color: #155e8b;
   }
 }
 
 footer {
   height: 300px;
   padding: 20px 10%;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -123,13 +134,13 @@ footer {
 <style lang="scss">
 @keyframes anim-color {
   0% {
-    color: #8A1E22;
+    color: #8a1e22;
   }
   50% {
-    color: #358E62;
+    color: #358e62;
   }
   100% {
-    color: #155E8B;
+    color: #155e8b;
   }
 }
 
@@ -157,13 +168,13 @@ footer {
           margin-left: 20px;
         }
       }
-      
+
       &.host {
         height: 40%;
-        
+
         .partner {
           height: 50%;
-          
+
           a {
             color: black;
             text-decoration: none;
