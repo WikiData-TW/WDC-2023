@@ -1,6 +1,6 @@
 # What is Wikidata? {.font-size--xxl .font-black .deco}
 
-![](/Wikidata-logo.png){.wikidata-img}
+![](https://upload.wikimedia.org/wikipedia/commons/6/66/Wikidata-logo-en.svg){.wikidata-img}
 Founded on October 29, 2012, as a component of the Wikimedia movement, Wikidata is a free, collaborative, multilingual knowledge base. It is used to gather structured data and provide it in a linked open-source format to support Wikipedia, Wikimedia Commons, and other projects in the Wikimedia movement, and to support everyone in the world.{.font-size--m .content}
 
 ---
