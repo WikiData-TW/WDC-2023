@@ -59,9 +59,32 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
   .article {
     max-width: 768px;
+  }
+}
+</style>
 
-    .wikidata-img {
-      width: auto;
+<style lang="scss">
+.main-viewport {
+  .article {
+    .font-size--m {
+      text-align: justify;
+
+      &.content {
+        display: flex;
+        align-items: center;
+  
+        .wikidata-img {
+          width: 100%;
+          height: 100%;
+          margin-right: 20px;
+        }
+  
+        .wdc-img {
+          width: 100%;
+          height: 100%;
+          margin-left: 20px;
+        }
+      }
     }
   }
 }
