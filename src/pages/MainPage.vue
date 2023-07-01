@@ -74,7 +74,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
         align-items: center;
 
         .wikidata-img {
-          width: 100%;
+          width: 230px;
           height: 100%;
           margin-right: 20px;
         }
