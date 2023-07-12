@@ -8,4 +8,4 @@
 
 National Taipei University (Sanxia, Taiwan) & Gather Town (Online) {.font-size--sm .box-modifier--extrude-outside--reset .font-align--center}
 
-[Call for Proposal](/cfp){.button .box-modifier--extrude-outside--top--4} [Contact Us](mailto:contact@wikidatacon.org){.button .box-modifier--extrude-outside--top--4} [WIKIDATA Page](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button .box-modifier--extrude-outside--top--4 target="_blank" rel="noopener"} {.font-size--sm .box-modifier--extrude-outside--top--8}
+[Call for Proposal](/cfp){.button .btn-banner .box-modifier--extrude-outside--top--4} [Contact Us](mailto:contact@wikidatacon.org){.button .btn-banner .box-modifier--extrude-outside--top--4} [WIKIDATA Page](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button .btn-banner .box-modifier--extrude-outside--top--4 target="_blank" rel="noopener"} {.font-size--sm .box-modifier--extrude-outside--top--8}

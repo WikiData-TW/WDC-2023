@@ -1,8 +1,7 @@
 # 什麼是 Wikidata？ {.font-size--xxl .font-black .deco}
 
-![](/Wikidata-logo.png) {.wikidata-img}
-
-Wikidata (中文：維基數據、維基資料)是一個自由的協作式的多語言輔助資料庫，成立於 2012 年 10 月 29 日，屬於維基媒體運動的一環。其用於收集結構化的數據，並以鏈結開放資料的方式呈現，旨在支援維基百科、維基共享資源以及其他維基媒體運動中的項目，也支援世界上的每一個人。 {.font-size--m}
+![](https://upload.wikimedia.org/wikipedia/commons/6/66/Wikidata-logo-en.svg){.wikidata-img}
+Wikidata (中文：維基數據、維基資料)是一個自由的協作式的多語言輔助資料庫，成立於 2012 年 10 月 29 日，屬於維基媒體運動的一環。其用於收集結構化的數據，並以鏈結開放資料的方式呈現，旨在支援維基百科、維基共享資源以及其他維基媒體運動中的項目，也支援世界上的每一個人。{.font-size--m .content}
 
 ---
 
@@ -12,9 +11,8 @@ Wikidatacon (中文：維基數據雙年會、維基資料雙年會) 自 2017 �
 
 Wikidatacon 中，我們關注所有與 Wikidata 相關的廣泛事務，包含：Wikidata 的編輯、使用以及技術研究，Wikidata 平台技術 Wikibase 的相關議題，Wikidata 與其他維基媒體計畫或其他平台的整合應用以及 Wikidata 與整體鏈結開放資料的生態系發展，都是這個會議中關注的議題。{.font-size--m}
 
-2023 年德國維基媒體協會(WMDE)與台灣維基媒體協會(WMTW)偕同臺灣維基數據社群(Wikidata Taiwan)，在臺灣舉辦線上實體混合形式的會議，以「鏈結資料Koh發現」為號召，更加關注整個 Wikidata 生態系如何呈現在地資料的多樣性。{.font-size--m}
-
-![](/LOGO_w_RGB.svg) {.wdc-img}
+2023 年德國維基媒體協會(WMDE)與台灣維基媒體協會(WMTW)偕同臺灣維基數據社群(Wikidata Taiwan)，在臺灣舉辦線上實體混合形式的會議，以「鏈結資料Koh發現」為號召，更加關注整個 Wikidata 生態系如何呈現在地資料的多樣性。
+![](/LOGO_w_RGB.svg){.wdc-img} {.font-size--m .content}
 
 ---
 
