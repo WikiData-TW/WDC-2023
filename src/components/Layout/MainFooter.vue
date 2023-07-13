@@ -111,10 +111,6 @@ footer {
         display: flex;
         align-items: center;
 
-        // &:hover {
-        //   animation: anim 2s linear infinite alternate;
-        // }
-
         .iconify {
           width: 100%;
           height: 80%;
