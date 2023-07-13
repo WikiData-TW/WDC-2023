@@ -40,7 +40,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 0 5px 3px rgba($color: black, $alpha: 0.2);
+  box-shadow: 0 5px 3px rgba($color: black, $alpha: 20%);
 
   a {
     &.logo {
@@ -65,6 +65,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(270deg);
   }

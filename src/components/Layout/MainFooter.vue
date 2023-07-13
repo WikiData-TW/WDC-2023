@@ -58,9 +58,11 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
   0% {
     color: #8a1e22;
   }
+
   50% {
     color: #358e62;
   }
+
   100% {
     color: #155e8b;
   }
@@ -136,9 +138,11 @@ footer {
   0% {
     color: #8a1e22;
   }
+
   50% {
     color: #358e62;
   }
+
   100% {
     color: #155e8b;
   }
