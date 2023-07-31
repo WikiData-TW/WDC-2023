@@ -66,7 +66,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 <style lang="scss">
 .main-viewport {
   .article {
-    .font-size--m {
+    .homepage-text {
       text-align: justify;
 
       &.content {
