@@ -8,4 +8,4 @@
 
 臺北大學（三峽校區）& Gather Town 線上開放議程 {.font-size--sm .box-modifier--extrude-outside--reset}
 
-[徵稿說明](/cfp){.button .btn-banner .box-modifier--extrude-outside--top--4} [聯絡我們](mailto:contact@wikidatacon.org){.button .btn-banner .box-modifier--extrude-outside--top--4} [WIKIDATA 頁面](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button .btn-banner .box-modifier--extrude-outside--top--4 target="_blank" rel="noopener"} {.box-modifier--extrude-outside--top--8}
+[立即報名](https://bit.ly/wikidatacon2023pretix){.button .btn-banner .box-modifier--extrude-outside--top--4} [聯絡我們](mailto:contact@wikidatacon.org){.button .btn-banner .box-modifier--extrude-outside--top--4} [WIKIDATA 頁面](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2023){.button .btn-banner .box-modifier--extrude-outside--top--4 target="_blank" rel="noopener"} {.box-modifier--extrude-outside--top--8}

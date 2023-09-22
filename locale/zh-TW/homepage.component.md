@@ -16,10 +16,22 @@ Wikidatacon 中，我們關注所有與 Wikidata 相關的廣泛事務，包含�
 
 ---
 
+# 活動地點 {.font-size--xxl .font-black .deco}
+
+## Gathertown
+
+## 線上直播
+
+## 國立臺北大學三峽校區人文學院
+
+<iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=121.36910766363145%2C24.94507847521594%2C121.37307196855548%2C24.94744234912393&amp;layer=mapnik&amp;marker=24.946260417840737%2C121.37108981609344" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=24.94626&amp;mlon=121.37109#map=19/24.94626/121.37109&amp;layers=N">查看更大的地圖</a></small>
+
+---
+
 # 徵稿訊息 {.font-size--xxl .font-black .deco}
 
 Wikidatacon 作為全球最大的 Wikidata 交流會議，我們關注的不單單只有 Wikidata 本身，包含提供 Wikidata 的平台技術：Wikibase，以及從 Wikidata 延伸出去的鏈結資料生態系，都是我們討論的焦點。{.font-size--m .homepage-text}
 
 今年主題＂鏈結資料 Koh（再）發現：Wikidata 的跨領域匯流＂，主題將著重在跨領域資料的交流，並且更加重視在地資料如何與國際對話與鏈結。在今年度的徵稿中，我們重視資料的多樣性在 Wikidata、Wikibase 上被呈現，包含但不限於在地的語言、文化、民俗、藝術與知識。{.font-size--m .homepage-text}
 
-[徵稿說明](/cfp){.button .box-modifier--extrude-outside--top--4}  [立即投稿](https://pretalx.com/wikidatacon2023/){.button .box-modifier--extrude-outside--top--4} {.font-size--sm .box-modifier--extrude-outside--top--8}
+[徵稿說明](/cfp){.button .box-modifier--extrude-outside--top--4}  [已結束！](){.button .box-modifier--extrude-outside--top--4} {.font-size--sm .box-modifier--extrude-outside--top--8}
