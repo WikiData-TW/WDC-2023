@@ -22,4 +22,4 @@ WikidataCon, the world’s largest Wikidata exchange conference, focuses not onl
 
 The theme of the year, “Collaboration Across Boundaries”, highlights the cross-disciplinary data exchange, with a greater emphasis on how local data can be linked to international dialogue. In this year’s Call for Proposals, we emphasize the diversity of data and how it has been presented by Wikidata and Wikibase, which then includes, but is not restricted to local languages, cultures, folklore, arts, and knowledge. {.font-size--m}
 
-[More](/cfp){.button .box-modifier--extrude-outside--top--4} [End](){.button .box-modifier--extrude-outside--top--4} {.font-size--sm .box-modifier--extrude-outside--top--8}
+[More](/cfp){.button .box-modifier--extrude-outside--top--4} [Closed](){.button .box-modifier--extrude-outside--top--4} {.font-size--sm .box-modifier--extrude-outside--top--8}
