@@ -14,7 +14,17 @@ const router = createRouter({
     {
       path: '/cfp',
       component: () => import('../pages/CFP.vue')
-    }
+    },
+    {
+      path: '/program',
+      component: () => import('../pages/Program.vue'),
+      children: [
+        {
+          path: ':programID',
+          component: () => import('../pages/Program.vue')
+        }
+      ]
+    },
   ]
 });
 

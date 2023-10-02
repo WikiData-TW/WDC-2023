@@ -9,6 +9,7 @@
 @include normalize;
 @include typography;
 
+@import './session.scss';
 html,
 body {
   min-height: 100vh;

@@ -16,5 +16,7 @@ declare module '@vue/runtime-core' {
     PatternMaterial: typeof import('./src/components/Material/PatternMaterial.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Session: typeof import('./src/components/Layout/Session.vue')['default']
+    SessionInfo: typeof import('./src/components/Layout/SessionInfo.vue')['default']
   }
 }

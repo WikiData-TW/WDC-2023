@@ -1,0 +1,198 @@
+[
+  {
+    "Proposal title": "Day 1 Opening",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T09:00:00+08:00",
+    "End": "2023-10-28T09:30:00+08:00"
+  },
+  {
+    "Proposal title": "Lunch Time",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T12:00:00+08:00",
+    "End": "2023-10-28T13:30:00+08:00"
+  },
+  {
+    "Proposal title": "break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T09:30:00+08:00",
+    "End": "2023-10-28T10:00:00+08:00"
+  },
+  {
+    "Proposal title": "break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T14:30:00+08:00",
+    "End": "2023-10-28T14:40:00+08:00"
+  },
+  {
+    "Proposal title": "Tea Break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T15:20:00+08:00",
+    "End": "2023-10-28T16:00:00+08:00"
+  },
+  {
+    "Proposal title": "break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T16:40:00+08:00",
+    "End": "2023-10-28T16:45:00+08:00"
+  },
+  {
+    "Proposal title": "Day 1 Closing",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 1"
+    },
+    "Start": "2023-10-28T16:45:00+08:00",
+    "End": "2023-10-28T17:00:00+08:00"
+  },
+  {
+    "Proposal title": "Day 2 Opening",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T09:00:00+08:00",
+    "End": "2023-10-29T09:10:00+08:00"
+  },
+  {
+    "Proposal title": "break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T11:00:00+08:00",
+    "End": "2023-10-29T11:10:00+08:00"
+  },
+  {
+    "Proposal title": "Launch Time",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T12:00:00+08:00",
+    "End": "2023-10-29T13:30:00+08:00"
+  },
+  {
+    "Proposal title": "Tea Break / Wikidata Birtday Celebrete",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T15:30:00+08:00",
+    "End": "2023-10-29T16:00:00+08:00"
+  },
+  {
+    "Proposal title": "Lighting Talk",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T16:00:00+08:00",
+    "End": "2023-10-29T16:45:00+08:00"
+  },
+  {
+    "Proposal title": "Day 2 Closing",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T16:45:00+08:00",
+    "End": "2023-10-29T17:00:00+08:00"
+  },
+  {
+    "Proposal title": "break",
+    "Session type": {
+      "en": "General Session",
+      "zh-tw": "\u8b70\u7a0b"
+    },
+    "Description": "break",
+    "Abstract": "",
+    "Room": {
+      "en": "Day 2"
+    },
+    "Start": "2023-10-29T11:50:00+08:00",
+    "End": "2023-10-29T12:00:00+08:00"
+  }
+]
