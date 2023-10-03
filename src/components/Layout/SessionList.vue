@@ -2,7 +2,7 @@
 import { computed } from 'vue';
 import { useDateFormat } from '@vueuse/core';
 import { create, get, sortBy } from 'lodash-es';
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 import sessionsRawData from '@/assets/wikidatacon2023_sessions.json'
 import breakRawData from '@/assets/wikidatacon2023_break.json'
@@ -11,16 +11,6 @@ import SessionInfo from './SessionInfo.vue';
 const route = useRoute()
 
 type Iday = 'Day 1' | 'Day 2' | 'Day 1.5' | 'Day 2.5'
-
-interface ISession {
-  Room: object | string,
-  Start: string,
-  End: string,
-  'Proposal title': string,
-  'Speaker names': string[],
-  'Description': string,
-  ID: string
-}
 
 interface ISessions {
   'Day 1': any[],

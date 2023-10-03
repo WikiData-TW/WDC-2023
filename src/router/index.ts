@@ -17,11 +17,11 @@ const router = createRouter({
     },
     {
       path: '/program',
-      component: () => import('../pages/Program.vue'),
+      component: () => import('../pages/ProgramInfo.vue'),
       children: [
         {
           path: ':programID',
-          component: () => import('../pages/Program.vue')
+          component: () => import('../pages/ProgramInfo.vue')
         }
       ]
     },
