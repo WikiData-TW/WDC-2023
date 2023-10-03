@@ -6,10 +6,10 @@
 @import 'libs/article';
 @import 'libs/box';
 @import 'libs/button';
+@import './session.scss';
 @include normalize;
 @include typography;
 
-@import './session.scss';
 html,
 body {
   min-height: 100vh;
