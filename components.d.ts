@@ -18,5 +18,6 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     Session: typeof import('./src/components/Layout/Session.vue')['default']
     SessionInfo: typeof import('./src/components/Layout/SessionInfo.vue')['default']
+    SessionList: typeof import('./src/components/Layout/SessionList.vue')['default']
   }
 }

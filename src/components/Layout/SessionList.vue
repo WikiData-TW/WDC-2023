@@ -9,7 +9,6 @@ import breakRawData from '@/assets/wikidatacon2023_break.json'
 import SessionInfo from './SessionInfo.vue';
 
 const route = useRoute()
-// const router = useRouter()
 
 type Iday = 'Day 1' | 'Day 2' | 'Day 1.5' | 'Day 2.5'
 
@@ -189,20 +188,20 @@ const gridNighttimeTemplateRows = computed(() => {
         gridTemplateColumns: gridDaytimeTemplateColumns,
         gridTemplateRows: gridDaytimeTemplateRows
       }">
-        <div class="session-day" v-for="day in daytimes" :style="{ gridRowStart: `_day`, gridColumnStart: day.replace(' ', '_') }">
+        <div class="session-day" v-for="day in daytimes" :key="day" :style="{ gridRowStart: `_day`, gridColumnStart: day.replace(' ', '_') }">
           <h2>{{ day }}</h2>
         </div>
         <div class="session-daynight" :style="{gridRowStart: `_daytime`, gridColumn: 'Day_1 / _time2'}">
           <h2>Day Time</h2>
         </div>
-        <div class="session-time-item" v-for="dt in day1timeStamps" :style="{gridRowStart: `_${dt}`, gridColumnStart: '_time1'}">
+        <div class="session-time-item" v-for="dt in day1timeStamps" :key="dt" :style="{gridRowStart: `_${dt}`, gridColumnStart: '_time1'}">
           <div class="session-time-item-content"> {{ dt.slice(0,2) + ':' + dt.slice(2) }} </div>
         </div>
-        <div class="session-time-item" v-for="dt in day2timeStamps" :style="{gridRowStart: `_${dt}`, gridColumnStart: '_time2'}">
+        <div class="session-time-item" v-for="dt in day2timeStamps" :key="dt" :style="{gridRowStart: `_${dt}`, gridColumnStart: '_time2'}">
           <div class="session-time-item-content"> {{ dt.slice(0,2) + ':' + dt.slice(2) }} </div>
         </div>
-        <template v-for="day in daytimes">
-          <SessionInfo v-for="session in sessions[day]" :session="session" :programID="programID"/>
+        <template v-for="day in daytimes" :key="day">
+          <SessionInfo v-for="session in sessions[day]" :key="session" :session="session" :programID="programID"/>
         </template>
       </div>
     </div>
@@ -212,20 +211,20 @@ const gridNighttimeTemplateRows = computed(() => {
         gridTemplateColumns: gridNighttimeTemplateColumns,
         gridTemplateRows: gridNighttimeTemplateRows
       }">
-        <div class="session-day" v-for="day in nighttimes" :style="{ gridRowStart: `_night`, gridColumnStart: day.replace(' ', '_').replace('.', '_') }">
+        <div class="session-day" v-for="day in nighttimes" :key="day" :style="{ gridRowStart: `_night`, gridColumnStart: day.replace(' ', '_').replace('.', '_') }">
           <h2>{{ day }}</h2>
         </div>
         <div class="session-daynight" :style="{gridRowStart: `_nighttime`, gridColumn: 'Day_1_5 / _time2'}">
           <h2>Night Time</h2>
         </div>
-        <div class="session-time-item" v-for="nt in night1timeStamps" :style="{gridRowStart: `_${nt}`, gridColumnStart: '_time1'}">
+        <div class="session-time-item" v-for="nt in night1timeStamps" :key="nt" :style="{gridRowStart: `_${nt}`, gridColumnStart: '_time1'}">
           <div class="session-time-item-content"> {{ nt.slice(0,2) + ':' + nt.slice(2) }} </div>
         </div>
-        <div class="session-time-item" v-for="nt in night2timeStamps" :style="{gridRowStart: `_${nt}`, gridColumnStart: '_time2'}">
+        <div class="session-time-item" v-for="nt in night2timeStamps" :key="nt" :style="{gridRowStart: `_${nt}`, gridColumnStart: '_time2'}">
           <div class="session-time-item-content"> {{ nt.slice(0,2) + ':' + nt.slice(2) }} </div>
         </div>
-        <template v-for="day in nighttimes">
-          <SessionInfo v-for="session in sessions[day]" :session="session" :programID="programID"/>
+        <template v-for="day in nighttimes" :key="day">
+          <SessionInfo v-for="session in sessions[day]" :key="session" :session="session" :programID="programID"/>
         </template>
       </div>
     </div>

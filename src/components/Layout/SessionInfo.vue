@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, onBeforeMount, type PropType } from 'vue';
+import { ref, onBeforeMount, toRefs, type PropType, reactive } from 'vue';
 import { useDateFormat } from '@vueuse/core';
 import { get } from 'lodash-es';
 import { useRouter } from 'vue-router'
@@ -26,8 +26,10 @@ const props = defineProps({
     }
 })
 
-const session = props.session
-const programID = props.programID
+// const session = props.session
+// const programID = props.programID
+// const { session, programID } = toRefs(props)
+const { session, programID } = reactive(props)
 const showInfo = ref(false)
 
 function parseSessionStyle(session: ISession) {

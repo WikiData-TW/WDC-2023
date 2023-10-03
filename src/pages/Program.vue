@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { defineAsyncComponent, computed } from 'vue';
-import { useBreakpoints, useDateFormat, usePreferredLanguages, type DateLike } from '@vueuse/core';
+import { defineAsyncComponent } from 'vue';
+import { useBreakpoints, usePreferredLanguages, type DateLike } from '@vueuse/core';
 import { signal } from '@/shared/libs/signal';
-import { create, first, get, join, sortBy } from 'lodash-es';
-import Session from '@/components/Layout/Session.vue';
-import sessionsRawData from '@/assets/wikidatacon2023_sessions.json'
+import { first, get } from 'lodash-es';
+import SessionList from '@/components/Layout/SessionList.vue';
 
 const breakpoints = useBreakpoints({
   mobile: 600,
@@ -34,7 +33,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
         <component :is="content()" />
       </Suspense>
       <!-- <Suspense> -->
-        <Session />
+        <SessionList />
       <!-- </Suspense> -->
     </main>
   </div>
