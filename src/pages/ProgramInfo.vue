@@ -3,6 +3,7 @@ import { defineAsyncComponent } from 'vue';
 import { useBreakpoints, usePreferredLanguages, type DateLike } from '@vueuse/core';
 import { signal } from '@/shared/libs/signal';
 import { first, get } from 'lodash-es';
+import MainFooter from '@/components/Layout/MainFooter.vue';
 import SessionList from '@/components/Layout/SessionList.vue';
 
 const breakpoints = useBreakpoints({
@@ -32,10 +33,11 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
       <Suspense>
         <component :is="content()" />
       </Suspense>
-      <!-- <Suspense> -->
+      <Suspense>
         <SessionList />
-      <!-- </Suspense> -->
+      </Suspense>
     </main>
+    <MainFooter />
   </div>
 </template>
 
