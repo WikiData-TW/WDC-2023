@@ -164,8 +164,14 @@ footer {
         align-items: center;
 
         .partner-img {
-          height: 100%;
+          height: 52px;
+          width: 72px;
+          object-fit: cover;
           margin-left: 20px;
+
+          &-taiwan {
+            scale: 0.8;
+          }
         }
       }
 
