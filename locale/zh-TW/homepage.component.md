@@ -20,18 +20,21 @@ WikidataCon 中，我們關注所有與 Wikidata 相關的廣泛事務，包含�
 
 ## Gathertown
 
-## 線上直播
+WikidataCon 2023 Day 1 與 Day 2 的臺灣實體議程以及 Day 1.5 、 Day 2.5 都提供 Gather Town 的線上活動場地可以參與，除了可以在線上場地上面實際與講者進行問答以外，也能與其他來自全球的參與者共同交流。
+
+請注意： Gather Town 入場券必須到 Pretix 上報名線上活動票或是現場活動票才會寄送到你的信箱中
+[立即報名](https://bit.ly/wikidatacon2023pretix){.button .box-modifier--extrude-outside--top--4} 
+
+## YouTube
+
+WikidataCon 2023 所有的內容都會在 Wikidata Taiwan YouTube 頻道上面進行轉播，你也可以透過 YouTube 的聊天室上與全球的參與者共同交流。
+
+活動訊息也會透過 YouTube 頻道的社群功能發送，訂閱頻道才不會漏接 WikidataCon 的最新消息
+[頻道連結](https://www.youtube.com/channel/UCDQF9ZTA1NjpOAq7NtkO8hQ){.button .box-modifier--extrude-outside--top--4} 
 
 ## 國立臺北大學三峽校區人文學院
 
+WikidataCon 2023 Day 1 與 Day 2 的臺灣實體議程於國立臺北大學三峽校區人文學院一樓會議室進行，除了精彩的議程發表以外，在 Day 2 還會有 Wikidata 11 週年慶祝活動，歡迎各位社群好友報名現場活動票，來到三峽與我們一起同樂吧！
+[立即報名](https://bit.ly/wikidatacon2023pretix){.button .box-modifier--extrude-outside--top--4} 
+
 <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=121.36910766363145%2C24.94507847521594%2C121.37307196855548%2C24.94744234912393&amp;layer=mapnik&amp;marker=24.946260417840737%2C121.37108981609344" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=24.94626&amp;mlon=121.37109#map=19/24.94626/121.37109&amp;layers=N">查看更大的地圖</a></small>
-
----
-
-# 徵稿訊息 {.font-size--xxl .font-black .deco}
-
-WikidataCon 作為全球最大的 Wikidata 交流會議，我們關注的不單單只有 Wikidata 本身，包含提供 Wikidata 的平台技術：Wikibase，以及從 Wikidata 延伸出去的鏈結資料生態系，都是我們討論的焦點。{.font-size--m .homepage-text}
-
-今年主題＂鏈結資料 Koh（再）發現：Wikidata 的跨領域匯流＂，主題將著重在跨領域資料的交流，並且更加重視在地資料如何與國際對話與鏈結。在今年度的徵稿中，我們重視資料的多樣性在 Wikidata、Wikibase 上被呈現，包含但不限於在地的語言、文化、民俗、藝術與知識。{.font-size--m .homepage-text}
-
-[徵稿說明](/cfp){.button .box-modifier--extrude-outside--top--4}  [已結束！](){.button .box-modifier--extrude-outside--top--4} {.font-size--sm .box-modifier--extrude-outside--top--8}

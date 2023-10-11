@@ -40,8 +40,8 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
       </div>
       <div class="coc">
         <a
-          href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/Wikidata_Taiwan/Code_of_Conduct_Wikidata_Taiwan"
-          >Taiwan Call of Conduct</a
+          href="https://foundation.wikimedia.org/wiki/Policy:Universal_Code_of_Conduct"
+          >行為準則 Code_of_Conduct</a
         >
       </div>
     </div>
