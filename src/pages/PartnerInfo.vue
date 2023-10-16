@@ -14,7 +14,7 @@ const i18n = {
   en: defineAsyncComponent(() => import('@/../locale/en/footer.component.md'))
 };
 
-const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
+// const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
 // interface IOrganizer {
 //   name: string,
@@ -110,7 +110,7 @@ const Collaboration: ICollaboration[] = [
       </ul>
       <h1 class="partner-title" id="%E7%A4%BE%E7%BE%A4%E5%8D%94%E5%8A%9B" tabindex="-1">社群協力</h1>
       <ul class="partner-list">
-        <li v-for="col in Collaboration" class="partner partner-community">
+        <li v-for="col in Collaboration" :key="col.name" class="partner partner-community">
           <img
             :src="col.icon ?? '/LOGO_w_RGB.svg'" :style="{ scale: (col.icon) ? '' : '0.8'}" alt=""
             class="partner-img partner-img-wikidata">
