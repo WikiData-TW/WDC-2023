@@ -26,6 +26,26 @@ const props = defineProps({
     }
 })
 
+const getDays = (session: ISession) => {
+  let Start = session['Start']
+  let day = Number(useDateFormat(Start, 'DD').value)
+  let hours = Number(useDateFormat(Start, 'HH').value)
+  let time = day*100 + hours
+  console.log(time)
+  if (time < 2818) {
+    return 'Day 1'
+  }
+  else if (time < 2906) {
+    return 'Day 1.5'
+  }
+  else if (time < 2918) {
+    return 'Day 2'
+  }
+  else {
+    return 'Day 2.5'
+  }
+}
+
 // const session = props.session
 // const programID = props.programID
 // const { session, programID } = toRefs(props)
@@ -39,7 +59,7 @@ function parseSessionStyle(session: ISession) {
   let day = get(session, 'Room.en') ?? 'Day 1'
   // console.log(`${start.value} / ${end.value}`)
   return ({
-    'grid-column-start': day.replace(' ', '_').replace('.', '_'),
+    'grid-column-start': getDays(session).replace(' ', '_').replace('.', '_'),
     'grid-row': `${start.value} / ${end.value}`
   })
 }
@@ -112,12 +132,12 @@ onBeforeMount(() => {
                     <br>
                     <template v-if="session['Abstract'] !== ''">
                         <h2>Abstract</h2>
-                        <p class="font-size--m" style="font-size: 1.15em">{{ session['Abstract'] }}</p>
+                        <p class="font-size--m" style="font-size: 1.15em">{{ session['Abstract'].replace('`(EN)`', 'English').replace('`(ZH)`', '中文').replace('---', '') }}</p>
                         <br>
                     </template>
                     <template v-if="session['Description'] !== ''">
                         <h2>Description</h2>
-                        <p class="font-size--m" style="font-size: 1.15em">{{ session['Description'] }}</p>
+                        <p class="font-size--m" style="font-size: 1.15em">{{ session['Description'].replace('`(EN)`', 'English').replace('`(ZH)`', '中文').replace('---', '') }}</p>
                     </template>
                 </div>
             </div>

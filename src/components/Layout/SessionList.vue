@@ -12,6 +12,17 @@ const route = useRoute()
 
 type Iday = 'Day 1' | 'Day 2' | 'Day 1.5' | 'Day 2.5'
 
+interface ISession {
+  Room: object | string,
+  Start: string,
+  End: string,
+  'Proposal title': string,
+  'Speaker names': string[],
+  'Description': string,
+  'Abstract': string,
+  ID: string
+}
+
 interface ISessions {
   'Day 1': any[],
   'Day 1.5': any[],
@@ -24,6 +35,26 @@ const daytimes: Iday[] = ['Day 1', 'Day 2']
 const nighttimes: Iday[] = ['Day 1.5', 'Day 2.5']
 const programID = route.params.programID as string
 
+const getDays = (session: ISession) => {
+  let Start = session['Start']
+  let day = Number(useDateFormat(Start, 'DD').value)
+  let hours = Number(useDateFormat(Start, 'HH').value)
+  let time = day*100 + hours
+  console.log(time)
+  if (time < 2818) {
+    return 'Day 1'
+  }
+  else if (time < 2906) {
+    return 'Day 1.5'
+  }
+  else if (time < 2918) {
+    return 'Day 2'
+  }
+  else {
+    return 'Day 2.5'
+  }
+}
+
 const sessions = computed(() => {
   let _sessions: ISessions = {
     'Day 1': [],
@@ -33,7 +64,7 @@ const sessions = computed(() => {
     'others': []
   }
   sessionsRawData.forEach(session => {
-    let type = get(session, 'Room.en') ?? 'others'
+    let type = getDays(session as ISession) ?? 'others'
     if (type == 'others') {
       _sessions['others'].push(create(session))
     }
