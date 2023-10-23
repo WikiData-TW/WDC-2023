@@ -1,7 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import type { RouterOptions } from 'vite-ssg';
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+export const routerOptions: RouterOptions = {
+  base: import.meta.env.BASE_URL,
   routes: [
     {
       path: '/2023',
@@ -28,8 +28,6 @@ const router = createRouter({
     {
       path: '/partner',
       component: () => import('../pages/PartnerInfo.vue')
-    },
+    }
   ]
-});
-
-export default router;
+};
