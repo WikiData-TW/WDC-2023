@@ -1,11 +1,11 @@
-import { createApp } from 'vue';
+import { ViteSSG, type ViteSSGContext } from 'vite-ssg';
 
 import App from './App.vue';
-import router from './router';
+import { routerOptions } from './router';
 
 import 'unfonts.css';
 
-const app = createApp(App);
-
-app.use(router);
-app.mount('#app');
+export const createApp: () => Promise<ViteSSGContext<true>> = ViteSSG(
+  App,
+  routerOptions
+);
