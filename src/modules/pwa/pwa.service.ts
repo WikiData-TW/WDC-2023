@@ -3,14 +3,17 @@
 import type { InjectionKey } from 'vue';
 
 import { createModuleSetup } from '@/modules/utils/module-factory';
-import { useCtx } from '@/modules/utils/context/context.service';
+
+import type { Context } from '@/modules/utils/context/context.model';
 
 const PROVIDE_KEY: InjectionKey<void> = Symbol('PwaRegister');
 
-const $useRegisterSW = () => {
-  const { router } = useCtx();
+const $useRegisterSW = (ctx: Context) => {
+  if (!ctx.isClient) {
+    return;
+  }
 
-  router?.isReady().then(async () => {
+  ctx.router?.isReady().then(async () => {
     const { registerSW } = await import('virtual:pwa-register');
     registerSW({
       onRegistered(r) {

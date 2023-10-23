@@ -37,13 +37,15 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
 
 <template>
   <div ref="wrapperRef$" :class="$style['banner-container']">
-    <PatternMaterial
-      :height="height"
-      :width="width"
-      :scale="props.scale"
-      :col="props.col"
-      :row="props.row"
-    />
+    <ClientOnly>
+      <PatternMaterial
+        :height="height"
+        :width="width"
+        :scale="props.scale"
+        :col="props.col"
+        :row="props.row"
+      />
+    </ClientOnly>
     <div :class="$style['banner-wrapper']">
       <div :class="$style['banner-header']">
         <MainLogo :isMobile="props.isMobile" />
