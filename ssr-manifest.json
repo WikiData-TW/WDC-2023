@@ -1,7 +1,7 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "\u0000unfonts.css": [
   ],
@@ -10,82 +10,94 @@
   "\u0000vite/preload-helper": [
   ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-26f51fcc.js"
+    "/assets/virtual_pwa-register-4f87fbc0.js"
   ],
   "../../../../../LOGO_w_RGB.svg": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "index.html": [
   ],
   "locale/en/CFP.component.md": [
-    "/assets/CFP.component-31db7bca.js"
+    "/assets/CFP.component-ec671880.js"
   ],
   "locale/en/CFP.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/CFP.component-31db7bca.js"
+    "/assets/CFP.component-ec671880.js"
   ],
   "locale/en/footer.component.md": [
-    "/assets/footer.component-48c6c30e.js"
+    "/assets/footer.component-6aac297d.js"
   ],
   "locale/en/footer.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/footer.component-48c6c30e.js"
+    "/assets/footer.component-6aac297d.js"
   ],
   "locale/en/homepage-banner.component.md": [
-    "/assets/homepage-banner.component-588f6e89.js"
+    "/assets/homepage-banner.component-4fb3fe7d.js"
   ],
   "locale/en/homepage-banner.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/homepage-banner.component-588f6e89.js"
+    "/assets/homepage-banner.component-4fb3fe7d.js"
   ],
   "locale/en/homepage.component.md": [
-    "/assets/homepage.component-5e96ba18.js"
+    "/assets/homepage.component-acfac679.js"
   ],
   "locale/en/homepage.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/homepage.component-5e96ba18.js"
+    "/assets/homepage.component-acfac679.js"
+  ],
+  "locale/en/live.component.md": [
+    "/assets/live.component-8cd7b908.js"
+  ],
+  "locale/en/live.component.md?vue&type=script&setup=true&lang.ts": [
+    "/assets/live.component-8cd7b908.js"
   ],
   "locale/en/navbar.component.md": [
-    "/assets/navbar.component-4caa3d63.js"
+    "/assets/navbar.component-06050f52.js"
   ],
   "locale/en/navbar.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/navbar.component-4caa3d63.js"
+    "/assets/navbar.component-06050f52.js"
   ],
   "locale/zh-TW/CFP.component.md": [
-    "/assets/CFP.component-6077eeaa.js"
+    "/assets/CFP.component-fcbc13d1.js"
   ],
   "locale/zh-TW/CFP.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/CFP.component-6077eeaa.js"
+    "/assets/CFP.component-fcbc13d1.js"
   ],
   "locale/zh-TW/footer.component.md": [
-    "/assets/footer.component-3ea757f6.js"
+    "/assets/footer.component-ee67f201.js"
   ],
   "locale/zh-TW/footer.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/footer.component-3ea757f6.js"
+    "/assets/footer.component-ee67f201.js"
   ],
   "locale/zh-TW/homepage-banner.component.md": [
-    "/assets/homepage-banner.component-bd222179.js"
+    "/assets/homepage-banner.component-dfe95e58.js"
   ],
   "locale/zh-TW/homepage-banner.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/homepage-banner.component-bd222179.js"
+    "/assets/homepage-banner.component-dfe95e58.js"
   ],
   "locale/zh-TW/homepage.component.md": [
-    "/assets/homepage.component-68f25b88.js"
+    "/assets/homepage.component-90b2c27f.js"
   ],
   "locale/zh-TW/homepage.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/homepage.component-68f25b88.js"
+    "/assets/homepage.component-90b2c27f.js"
+  ],
+  "locale/zh-TW/live.component.md": [
+    "/assets/live.component-e62e127a.js"
+  ],
+  "locale/zh-TW/live.component.md?vue&type=script&setup=true&lang.ts": [
+    "/assets/live.component-e62e127a.js"
   ],
   "locale/zh-TW/navbar.component.md": [
-    "/assets/navbar.component-148e1357.js"
+    "/assets/navbar.component-888a87d9.js"
   ],
   "locale/zh-TW/navbar.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/navbar.component-148e1357.js"
+    "/assets/navbar.component-888a87d9.js"
   ],
   "locale/zh-TW/program.component.md": [
-    "/assets/program.component-7ceeabca.js"
+    "/assets/program.component-ee39713a.js"
   ],
   "locale/zh-TW/program.component.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/program.component-7ceeabca.js"
+    "/assets/program.component-ee39713a.js"
   ],
   "node_modules/.pnpm/@iconify+vue@4.1.1_vue@3.2.47/node_modules/@iconify/vue/dist/iconify.mjs": [
-    "/assets/MainFooter-20e27b3b.js",
+    "/assets/MainFooter-5e5e7bbc.js",
     "/assets/MainFooter-2fd8757f.css"
   ],
   "node_modules/.pnpm/@unhead+dom@1.7.4/node_modules/@unhead/dom/dist/index.mjs": [
@@ -103,584 +115,584 @@
   "node_modules/.pnpm/@vue+shared@3.2.47/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
   ],
   "node_modules/.pnpm/@vueuse+core@9.13.0_vue@3.2.47/node_modules/@vueuse/core/index.mjs": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/@vueuse+shared@9.13.0_vue@3.2.47/node_modules/@vueuse/shared/index.mjs": [
   ],
   "node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs": [
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_DataView.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Hash.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_ListCache.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Map.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_MapCache.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Promise.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Set.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_SetCache.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Stack.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Symbol.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_Uint8Array.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_WeakMap.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_apply.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_arrayFilter.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_arrayLikeKeys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_arrayMap.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_arrayPush.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_arraySome.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_assignValue.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_assocIndexOf.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseAssign.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseAssignValue.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseCreate.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseEach.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseFlatten.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseFor.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseForOwn.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseGet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseGetAllKeys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseGetTag.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseHasIn.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsArguments.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsEqual.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsEqualDeep.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsMatch.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsNative.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIsTypedArray.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseIteratee.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseKeys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseMap.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseMatches.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseMatchesProperty.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseOrderBy.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseProperty.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_basePropertyDeep.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseRest.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseSetToString.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseSortBy.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseTimes.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseToString.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_baseUnary.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_cacheHas.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_castPath.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_compareAscending.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_compareMultiple.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_copyObject.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_coreJsData.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_createBaseEach.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_createBaseFor.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_defineProperty.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_equalArrays.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_equalByTag.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_equalObjects.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_freeGlobal.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getAllKeys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getMapData.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getMatchData.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getNative.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getRawTag.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getSymbols.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getTag.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_getValue.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hasPath.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hashClear.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hashDelete.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hashGet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hashHas.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_hashSet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isFlattenable.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isIndex.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isIterateeCall.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isKey.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isKeyable.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isMasked.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isPrototype.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_isStrictComparable.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_listCacheClear.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_listCacheDelete.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_listCacheGet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_listCacheHas.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_listCacheSet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapCacheClear.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapCacheDelete.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapCacheGet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapCacheHas.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapCacheSet.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_mapToArray.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_matchesStrictComparable.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_memoizeCapped.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_nativeCreate.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_nativeKeys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_nodeUtil.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_objectToString.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_overArg.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_overRest.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_root.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_setCacheAdd.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_setCacheHas.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_setToArray.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_setToString.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_shortOut.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stackClear.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stackDelete.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stackGet.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stackHas.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stackSet.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_stringToPath.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_toKey.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/_toSource.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/constant.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/create.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/eq.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/get.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/hasIn.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/head.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/identity.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isArguments.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isArray.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isArrayLike.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isBuffer.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isFunction.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isLength.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isObject.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isObjectLike.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isSymbol.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/isTypedArray.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/keys.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/memoize.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/property.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/sortBy.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/stubArray.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/stubFalse.js": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "node_modules/.pnpm/lodash-es@4.17.21/node_modules/lodash-es/toString.js": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "node_modules/.pnpm/unhead@1.7.4/node_modules/unhead/dist/index.mjs": [
   ],
@@ -700,83 +712,83 @@
   "src/App.vue?vue&type=style&index=0&lang.scss": [
   ],
   "src/assets/wikidatacon2023_break.json": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/assets/wikidatacon2023_sessions.json": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/components/Layout/MainBanner.vue": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Layout/MainBanner.vue?used&vue&type=style&index=0&scoped=8b61d034&lang.module.scss": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Layout/MainBanner.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Layout/MainBanner.vue?vue&type=style&index=1&lang.scss": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Layout/MainFooter.vue": [
-    "/assets/MainFooter-20e27b3b.js",
+    "/assets/MainFooter-5e5e7bbc.js",
     "/assets/MainFooter-2fd8757f.css"
   ],
   "src/components/Layout/MainFooter.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainFooter-20e27b3b.js",
+    "/assets/MainFooter-5e5e7bbc.js",
     "/assets/MainFooter-2fd8757f.css"
   ],
   "src/components/Layout/MainFooter.vue?vue&type=style&index=0&scoped=ff98127b&lang.scss": [
-    "/assets/MainFooter-20e27b3b.js",
+    "/assets/MainFooter-5e5e7bbc.js",
     "/assets/MainFooter-2fd8757f.css"
   ],
   "src/components/Layout/MainFooter.vue?vue&type=style&index=1&lang.scss": [
-    "/assets/MainFooter-20e27b3b.js",
+    "/assets/MainFooter-5e5e7bbc.js",
     "/assets/MainFooter-2fd8757f.css"
   ],
   "src/components/Layout/MainNavbar.vue": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "src/components/Layout/MainNavbar.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
-  "src/components/Layout/MainNavbar.vue?vue&type=style&index=0&scoped=e987e30a&lang.scss": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+  "src/components/Layout/MainNavbar.vue?vue&type=style&index=0&scoped=0084073b&lang.scss": [
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "src/components/Layout/MainNavbar.vue?vue&type=style&index=1&lang.scss": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ],
   "src/components/Layout/SessionInfo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/components/Layout/SessionList.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/components/Material/MainLogo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Material/PatternMaterial.vue": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Material/PatternMaterial.vue?used&vue&type=style&index=0&lang.module.scss": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/components/Material/PatternMaterial.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/main.ts": [
@@ -790,61 +802,77 @@
   "src/modules/utils/module-factory.ts": [
   ],
   "src/pages/CFP.vue": [
-    "/assets/CFP-889548a0.js",
+    "/assets/CFP-93a29828.js",
     "/assets/CFP-11b6b7ec.css"
   ],
   "src/pages/CFP.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/CFP-889548a0.js",
+    "/assets/CFP-93a29828.js",
     "/assets/CFP-11b6b7ec.css"
   ],
   "src/pages/CFP.vue?vue&type=style&index=0&scoped=fa515221&lang.scss": [
-    "/assets/CFP-889548a0.js",
+    "/assets/CFP-93a29828.js",
     "/assets/CFP-11b6b7ec.css"
   ],
+  "src/pages/MainLive.vue": [
+    "/assets/MainLive-1175ed18.js",
+    "/assets/MainLive-dff032d5.css"
+  ],
+  "src/pages/MainLive.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/MainLive-1175ed18.js",
+    "/assets/MainLive-dff032d5.css"
+  ],
+  "src/pages/MainLive.vue?vue&type=style&index=0&scoped=53122c6a&lang.scss": [
+    "/assets/MainLive-1175ed18.js",
+    "/assets/MainLive-dff032d5.css"
+  ],
+  "src/pages/MainLive.vue?vue&type=style&index=1&lang.scss": [
+    "/assets/MainLive-1175ed18.js",
+    "/assets/MainLive-dff032d5.css"
+  ],
   "src/pages/MainPage.vue": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/pages/MainPage.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/pages/MainPage.vue?vue&type=style&index=0&scoped=c524f17e&lang.scss": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/pages/MainPage.vue?vue&type=style&index=1&lang.scss": [
-    "/assets/MainPage-9b0b68e7.js",
+    "/assets/MainPage-0a7b49e8.js",
     "/assets/MainPage-f33a54e7.css"
   ],
   "src/pages/PartnerInfo.vue": [
-    "/assets/PartnerInfo-f16f0bd3.js",
+    "/assets/PartnerInfo-c2a2fad3.js",
     "/assets/PartnerInfo-c1ff2ffe.css"
   ],
   "src/pages/PartnerInfo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/PartnerInfo-f16f0bd3.js",
+    "/assets/PartnerInfo-c2a2fad3.js",
     "/assets/PartnerInfo-c1ff2ffe.css"
   ],
   "src/pages/PartnerInfo.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/PartnerInfo-f16f0bd3.js",
+    "/assets/PartnerInfo-c2a2fad3.js",
     "/assets/PartnerInfo-c1ff2ffe.css"
   ],
   "src/pages/ProgramInfo.vue": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/pages/ProgramInfo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/pages/ProgramInfo.vue?vue&type=style&index=0&scoped=123531f1&lang.scss": [
-    "/assets/ProgramInfo-28e372ff.js",
+    "/assets/ProgramInfo-ffdafcc7.js",
     "/assets/ProgramInfo-223c2ce5.css"
   ],
   "src/router/index.ts": [
   ],
   "src/shared/libs/signal.ts": [
-    "/assets/MainNavbar-160773fd.js",
-    "/assets/MainNavbar-442c753e.css"
+    "/assets/MainNavbar-ee939b7e.js",
+    "/assets/MainNavbar-a40f31fe.css"
   ]
 }
