@@ -28,6 +28,10 @@ export const routerOptions: RouterOptions = {
     {
       path: '/partner',
       component: () => import('../pages/PartnerInfo.vue')
+    },
+    {
+      path: '/live',
+      component: () => import('../pages/MainLive.vue')
     }
   ]
 };

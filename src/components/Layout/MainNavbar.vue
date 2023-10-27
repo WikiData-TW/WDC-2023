@@ -55,7 +55,7 @@ const content = signal(get(i18n, first(langs.value) ?? 'en') ?? i18n.en);
   }
 
   :deep(.article) {
-    width: 50%;
+    width: 40%;
   }
 }
 </style>
